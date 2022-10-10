@@ -18,7 +18,7 @@ class MyResource(Resource):
         jumlah_barang = request.form["jumlahbarang"]
         databarang["namabarang"] = nama_barang
         databarang["jumlahbarang"] = jumlah_barang
-        response = {"msg": "Data berhasil disimpan"}
+        response = {"msg": "Data Saved"}
         return response
 
 
